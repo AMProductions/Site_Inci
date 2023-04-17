@@ -1,0 +1,638 @@
+/*font-face*/
+@font-face {
+	font-family:'LubalinGraphStd-Book';
+	src: url('../fontes/lubalin/LubalinGraphStd-Book_gdi.eot');
+	src: url('../fontes/lubalin/LubalinGraphStd-Book_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/lubalin/LubalinGraphStd-Book_gdi.woff') format('woff'),
+		url('../fontes/lubalin/LubalinGraphStd-Book_gdi.ttf') format('truetype'),
+		url('../fontes/lubalin/LubalinGraphStd-Book_gdi.svg#LubalinGraphStd-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Clarendon-Regular';
+	src: url('../fontes/clarendon/Clarendon_gdi.eot');
+	src: url('../fontes/clarendon/Clarendon_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/clarendon/Clarendon_gdi.woff') format('woff'),
+		url('../fontes/clarendon/Clarendon_gdi.ttf') format('truetype'),
+		url('../fontes/clarendon/Clarendon_gdi.svg#Clarendon-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'jenson_classicoregular';
+    src: url('../fontes/jenson/jenson_classico-webfont.eot');
+    src: url('../fontes/jenson/jenson_classico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/jenson/jenson_classico-webfont.woff2') format('woff2'),
+         url('../fontes/jenson/jenson_classico-webfont.woff') format('woff'),
+         url('../fontes/jenson/jenson_classico-webfont.ttf') format('truetype'),
+         url('../fontes/jenson/jenson_classico-webfont.svg#jenson_classicoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'CentaurMTStd-Bold';
+	src: url('../fontes/centaur/CentaurMTStd-Bold_gdi.eot');
+	src: url('../fontes/centaur/CentaurMTStd-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/centaur/CentaurMTStd-Bold_gdi.woff') format('woff'),
+		url('../fontes/centaur/CentaurMTStd-Bold_gdi.ttf') format('truetype'),
+		url('../fontes/centaur/CentaurMTStd-Bold_gdi.svg#CentaurMTStd-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'HadrianoStd-Bold';
+	src: url('../fontes/hadriano/HadrianoStd-Bold_gdi.eot');
+	src: url('../fontes/hadriano/HadrianoStd-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/hadriano/HadrianoStd-Bold_gdi.woff') format('woff'),
+		url('../fontes/hadriano/HadrianoStd-Bold_gdi.ttf') format('truetype'),
+		url('../fontes/hadriano/HadrianoStd-Bold_gdi.svg#HadrianoStd-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'PlantinStd-Regular';
+	src: url('../fontes/plantin/PlantinStd_gdi.eot');
+	src: url('../fontes/plantin/PlantinStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/plantin/PlantinStd_gdi.woff') format('woff'),
+		url('../fontes/plantin/PlantinStd_gdi.ttf') format('truetype'),
+		url('../fontes/plantin/PlantinStd_gdi.svg#PlantinStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Caslon3LTStd-Roman';
+	src: url('../fontes/caslon/Caslon3LTStd-Roman_gdi.eot');
+	src: url('../fontes/caslon/Caslon3LTStd-Roman_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/caslon/Caslon3LTStd-Roman_gdi.woff') format('woff'),
+		url('../fontes/caslon/Caslon3LTStd-Roman_gdi.ttf') format('truetype'),
+		url('../fontes/caslon/Caslon3LTStd-Roman_gdi.svg#Caslon3LTStd-Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'UniversLTStd-Regular';
+	src: url('../fontes/univers/UniversLTStd_gdi.eot');
+	src: url('../fontes/univers/UniversLTStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/univers/UniversLTStd_gdi.woff') format('woff'),
+		url('../fontes/univers/UniversLTStd_gdi.ttf') format('truetype'),
+		url('../fontes/univers/UniversLTStd_gdi.svg#UniversLTStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'LithosPro-Regular';
+	src: url('../fontes/lithos/LithosPro-Regular_gdi.eot');
+	src: url('../fontes/lithos/LithosPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/lithos/LithosPro-Regular_gdi.woff') format('woff'),
+		url('../fontes/lithos/LithosPro-Regular_gdi.ttf') format('truetype'),
+		url('../fontes/lithos/LithosPro-Regular_gdi.svg#LithosPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'MistralStd-Regular';
+	src: url('../fontes/mistral/MistralStd_gdi.eot');
+	src: url('../fontes/mistral/MistralStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/mistral/MistralStd_gdi.woff') format('woff'),
+		url('../fontes/mistral/MistralStd_gdi.ttf') format('truetype'),
+		url('../fontes/mistral/MistralStd_gdi.svg#MistralStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'PalaceScriptMTStd-Regular';
+	src: url('../fontes/palace/PalaceScriptMTStd_gdi.eot');
+	src: url('../fontes/palace/PalaceScriptMTStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/palace/PalaceScriptMTStd_gdi.woff') format('woff'),
+		url('../fontes/palace/PalaceScriptMTStd_gdi.ttf') format('truetype'),
+		url('../fontes/palace/PalaceScriptMTStd_gdi.svg#PalaceScriptMTStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+    font-family: 'mutlu_ornamental';
+    src: url('../fontes/mutlu/Mutlu__Ornamental-webfont.eot');
+    src: url('../fontes/mutlu/Mutlu__Ornamental-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/mutlu/Mutlu__Ornamental-webfont.woff') format('woff'),
+         url('../fontes/mutlu/Mutlu__Ornamental-webfont.ttf') format('truetype'),
+         url('../fontes/mutlu/Mutlu__Ornamental-webfont.svg#mutlu_ornamental') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'OmniaLTStd-Regular';
+	src: url('../fontes/omnia/OmniaLTStd_gdi.eot');
+	src: url('../fontes/omnia/OmniaLTStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/omnia/OmniaLTStd_gdi.woff') format('woff'),
+		url('../fontes/omnia/OmniaLTStd_gdi.ttf') format('truetype'),
+		url('../fontes/omnia/OmniaLTStd_gdi.svg#OmniaLTStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'aubreyregular';
+    src: url('../fontes/aubrey/aubrey1__-webfont.eot');
+    src: url('../fontes/aubrey/aubrey1__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/aubrey/aubrey1__-webfont.woff2') format('woff2'),
+         url('../fontes/aubrey/aubrey1__-webfont.woff') format('woff'),
+         url('../fontes/aubrey/aubrey1__-webfont.ttf') format('truetype'),
+         url('../fontes/aubrey/aubrey1__-webfont.svg#aubreyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rostock_kaligraphregular';
+    src: url('../fontes/rostock/rostock_kaligraph-webfont.eot');
+    src: url('../fontes/rostock/rostock_kaligraph-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/rostock/rostock_kaligraph-webfont.woff2') format('woff2'),
+         url('../fontes/rostock/rostock_kaligraph-webfont.woff') format('woff'),
+         url('../fontes/rostock/rostock_kaligraph-webfont.ttf') format('truetype'),
+         url('../fontes/rostock/rostock_kaligraph-webfont.svg#rostock_kaligraphregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'FetteFrakturLTStd-Regular';
+	src: url('../fontes/fettefraktur/FetteFrakturLTStd_gdi.eot');
+	src: url('../fontes/fettefraktur/FetteFrakturLTStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/fettefraktur/FetteFrakturLTStd_gdi.woff') format('woff'),
+		url('../fontes/fettefraktur/FetteFrakturLTStd_gdi.ttf') format('truetype'),
+		url('../fontes/fettefraktur/FetteFrakturLTStd_gdi.svg#FetteFrakturLTStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'GoudyTextMTStd-Regular';
+	src: url('../fontes/goudy/GoudyTextMTStd_gdi.eot');
+	src: url('../fontes/goudy/GoudyTextMTStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fontes/goudy/GoudyTextMTStd_gdi.woff') format('woff'),
+		url('../fontes/goudy/GoudyTextMTStd_gdi.ttf') format('truetype'),
+		url('../fontes/goudy/GoudyTextMTStd_gdi.svg#GoudyTextMTStd-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ruritanianormal';
+    src: url('../fontes/ruritania/ruritania-webfont.eot');
+    src: url('../fontes/ruritania/ruritania-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/ruritania/ruritania-webfont.woff2') format('woff2'),
+         url('../fontes/ruritania/ruritania-webfont.woff') format('woff'),
+         url('../fontes/ruritania/ruritania-webfont.ttf') format('truetype'),
+         url('../fontes/ruritania/ruritania-webfont.svg#ruritanianormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* général */
+body{
+    width: 1000px;
+    margin: -0 auto;
+    font-family: sans-serif;
+    background-color: rgb(255,140,0);
+    color: rgb(0,0,0);
+}
+a {
+    text-decoration: none;
+    color: rgb(250,250,250);
+}
+a:hover {
+    color: rgb(255,140,0);
+}
+p {
+    text-align: justify;
+    font-size: 1em;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-top: 30px;
+    margin-bottom: -10px;
+}
+h2 {
+    margin-bottom: -10px;
+    font-size: 1.2em;
+    text-align: left;
+}
+h3{
+    font-size: 1em;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+footer {
+    color: rgb(250,250,250);
+}
+
+footer p {
+    background-color: rgb(255,140,0);
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-image: url('../images/fonds/pattern_simple_orange.png');
+}
+
+
+/*class général*/
+.paragraph {
+    padding-left: 15px;
+}
+.ital {
+    font-style: italic;
+}
+.exposant {
+    font-size: 70%;
+    line-height: 50%;
+    vertical-align: 80%;
+}
+.hr_reference {
+    width: 300px;
+    margin-left: 670px;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: italic;
+}
+/*id général */
+#conteneur {
+    background-color: rgb(250,250,250);
+    margin: -40px auto;
+    padding-bottom: 30px;
+}
+#conteneur header{
+    background-image: url('../images/fonds/pattern_simple.png');
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#conteneur #nobackgroundimage {
+    background-image: none;
+}
+#empagement {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+#reference {
+    font-size: 0.6em;
+    text-align: right;
+    font-style: italic;
+    padding-right: 30px;
+}
+#reference a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+#reference a:hover {
+    color: rgb(255,140,0);
+}
+/* index id */
+#menu {
+    margin: -20px auto 20px;
+    height: 30px;
+    background-color: rgb(0,0,0);
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    letter-spacing: 0.1em;
+}
+#menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5px;
+}
+#menu li {
+    display: inline-block;
+    font-family: inherit;
+    padding-right: 55px;
+}
+#menu li:last-of-type {
+    padding-right: 0;
+}
+#active {
+    color: rgb(255,140,0);
+}
+
+/* anatomie */
+#anatomie_illustration {
+    margin: -10px auto;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#anatomie_illustration figcaption {
+    font-style: italic;
+    color: rgb(233,77,26);
+}
+.anatomie_img {
+    width: 800px;
+    border: 5px solid rgb(233,77,26);
+    border-radius: 20px;
+    margin-bottom: 5px;
+    -webkit-transform:scale(1); /*Webkit: Scale up image*/
+	-moz-transform:scale(1); /*Mozilla scale version*/
+	-o-transform:scale(1); /*Opera scale version*/
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+	-o-transition-duration: 0.5s; /*Opera duration version*/
+}
+.anatomie_img:hover{
+    -webkit-transform:scale(1.3); /*Webkit: Scale up image to 1.6x original size*/
+	-moz-transform:scale(1.3); /*Mozilla scale version*/
+	-o-transform:scale(1.3); /*Opera scale version*/
+    opacity: 0.9;
+    box-shadow: 10px 10px 20px rgba(233,77,26,0.8);
+}
+
+/* classifications id*/
+#deuxcolonnes {
+    width: inherit;
+    background-color: rgb(250,250,250);
+    height: auto;
+    background-color: rgba(255,140,0,0.2);
+    padding: 20px 10px 15px 10px;
+}
+#thibaudeau {
+    display: inline-block;
+    float: left;
+    position: relative;
+    vertical-align: top;
+    width: 48%;
+}
+#vox {
+    display: inline-block;
+    float: right;
+    position: relative;
+    vertical-align: top;
+    width: 48%;
+    border-left: 1px solid rgb(255,140,0);
+    padding: 0 0 0 13px;
+}
+#vox h3, #vox p, #thibaudeau h3, #thibaudeau p {
+    padding-left: 10px;
+    text-align: left;
+}
+#vox ol, #thibaudeau ol {
+    margin-top: -10px;
+}
+#vox table, #thibaudeau table {
+    margin-left: 10px;
+}
+
+/* classifications class*/
+.tableau {
+    text-align: left;
+    border: 3px solid rgb(0,0,0);
+    border-collapse: collapse;
+}
+.tableau td, .tableau th {
+    padding: 5px;
+    border: 2px solid rgb(0,0,0);
+    vertical-align: text-top;
+}
+.tableau th {
+    background-color: rgb(0,0,0);
+    border-right: 2px solid rgba(255,140,0,0.5);
+    color: rgb(255,140,0);
+    letter-spacing: 0.1em;
+}
+.tableau th:last-of-type {
+    border: 2px solid rgb(0,0,0);
+}
+.tableau td:nth-child(2), th:nth-child(2) {
+    width: 43%;
+}
+.bold_tableau {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.classifications {
+    font-size: 1.1em;
+}
+.espace_apres {
+    margin-bottom: -8px;
+}
+.clear {
+    clear: both;
+}
+
+/* classifications fontes */
+.arial {
+    font-family: arial;
+    color: rgb(178,34,34);
+}
+.aubrey {
+    font-family: 'aubreyregular';
+    color: rgb(178,34,34);
+}
+.baskerville {
+    font-family: baskerville;
+    color: rgb(178,34,34);
+}
+.bodoni {
+    font-family: bodoni;
+    color: rgb(178,34,34);
+}
+.caslon {
+	font-family:'Caslon3LTStd-Roman';
+    color: rgb(178,34,34);
+}
+.centaur {
+	font-family:'CentaurMTStd-Bold';
+     color: rgb(178,34,34);
+}
+.clarendon {
+	font-family:'Clarendon-Regular';
+    color: rgb(178,34,34);
+}
+.courrier {
+    font-family: courrier;
+    color: rgb(178,34,34);
+}
+.didot {
+    font-family: didot;
+    color: rgb(178,34,34);
+}
+.fraktur {
+    font-family:'FetteFrakturLTStd-Regular';
+    color: rgb(178,34,34);
+}
+.garamond {
+    font-family: garamond;
+    color: rgb(178,34,34);
+}
+.georgia {
+    font-family: georgia;
+    color: rgb(178,34,34);
+}
+.goudy {
+	font-family:'GoudyTextMTStd-Regular';
+    color: rgb(178,34,34);
+}
+.hadriano {
+	font-family:'HadrianoStd-Bold';
+    color: rgb(178,34,34);
+}
+.helvetica {
+    font-family: helvetica;
+    color: rgb(178,34,34);
+}
+.jenson {
+    font-family: 'jenson_classicoregular';
+    color: rgb(178,34,34);
+}
+.lithos {
+	font-family:'LithosPro-Regular';
+    color: rgb(178,34,34);
+}
+.lubalin {
+	font-family:'LubalinGraphStd-Book';
+    color: rgb(178,34,34);
+}
+.mistral {
+    font-family:'MistralStd-Regular';
+    color: rgb(178,34,34);
+}
+.myriad {
+    font-family: myriad;
+    color: rgb(178,34,34);
+}
+.mutlu {
+    font-family: 'mutlu_ornamental';
+    color: rgb(178,34,34);
+}
+.omnia {
+	font-family:'OmniaLTStd-Regular';
+    color: rgb(178,34,34);
+}
+.optima {
+    font-family: optima;
+    color: rgb(178,34,34);
+}
+.palace {
+    font-family:'PalaceScriptMTStd-Regular';
+    color: rgb(178,34,34);
+}
+.palatino {
+    font-family: palatino;
+    color: rgb(178,34,34);
+}
+.plantin {
+	font-family:'PlantinStd-Regular';
+    color: rgb(178,34,34);
+}
+.rockwell {
+    font-family: rockwell;
+    color: rgb(178,34,34);
+}
+.rostock {
+    font-family: 'rostock_kaligraphregular';
+    color: rgb(178,34,34);
+}
+.ruritania {
+    font-family: 'ruritanianormal';
+    color: rgb(178,34,34);
+}
+.times {
+    font-family: times;
+    color: rgb(178,34,34);
+}
+.trajan {
+    font-family: trajan;
+    color: rgb(178,34,34);
+}
+.univers {
+	font-family:'UniversLTStd-Regular';
+    color: rgb(178,34,34);
+}
+
+/* formulaire général*/
+label {
+	color: rgb(255,140,0);
+	font-size: 1.1em;
+}
+
+textarea {
+    height: 400px;
+    width: 500px;
+	border: 1.5px solid  rgb(255,140,0);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size: 0.8em;
+}
+
+optgroup {
+	font-weight: bold;	
+}
+
+input {
+	background-color: rgba(255,140,0,0.25);
+}
+
+/* formulaire id*/
+#nom, #email, #sujet, #commentaires, #pays, #prenom {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    padding: 2px 5px 2px 5px;
+	border: 1.5px solid  rgb(255,140,0);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size: 0.8em;
+}
+
+#commentaires {
+	padding: 10px;
+    width: 500px;
+}
+
+#label {
+	color: rgb(255,140,0);
+    margin-top: 4px;
+}
+
+#envoi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	margin-top: 2px;
+	vertical-align: middle;
+	color: rgb(255,140,0);
+}
+
+.img_fd {
+    background-image: url(../images/fonds/A.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* formulaire class*/
+.envoi {
+	margin-top: -15px;
+}
+.contact {
+    font-size: 1.2em;
+    color: rgb(0,0,0);
+}

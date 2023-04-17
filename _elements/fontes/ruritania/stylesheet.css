@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ruritanianormal';
+    src: url('ruritania-webfont.eot');
+    src: url('ruritania-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ruritania-webfont.woff2') format('woff2'),
+         url('ruritania-webfont.woff') format('woff'),
+         url('ruritania-webfont.ttf') format('truetype'),
+         url('ruritania-webfont.svg#ruritanianormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

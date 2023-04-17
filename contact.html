@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+    
+<head>
+    <meta charset="utf-8" lang="fr">
+    <title>typographie - contact</title>
+    <link rel="stylesheet" type="text/css" href="_elements/css/main.css" >
+    <link rel="icon" type="image/png" href="_elements/images/favicon/favicon.png" />
+</head>
+    
+<body>
+    <section id="conteneur"> 
+        <!-- en-tête-->
+        <header>
+            <h1>
+                TYPOGRAPHIE
+            </h1>
+        </header>
+            <!-- menu de navigation -->
+         <nav id="menu">
+             <ul>
+                <li><a href="index.html">définition</a></li>
+                <li><a href="anatomie.html">anatomie</a></li>
+                <li><a href="classifications.html">classifications</a></li>
+                <li><a href="regles.html">règles</a></li>
+                <li><a href="#" id="active">contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- article-->
+        <article id="empagement" class="img_fd">
+            <h2>Une question&ensp;? Contactez-nous.</h2>
+            <form method="post" action="traitement.php">
+					<p>
+					<label for="nom">Nom</label><br />
+					<input type="text" name="pseudo" size="30" maxlength="50" id="nom" required autofocus />
+					</p>
+                    <p>
+					<label for="prénom">Prénom</label><br />
+					<input type="text" name="pseudo" size="30" maxlength="50" id="prenom" required autofocus />
+					</p>
+					<p>
+					<label for="email">
+						Email<br />
+					<input type="email" id="email" size="30" required />
+					</label>
+					</p>
+					<p>
+						<label for="pays">À propos de</label><br />
+      					<select name="pays" id="label">
+							<optgroup label="Thèmes">          		
+           					    <option value="définition" selected>Définitions</option>
+           					    <option value="anatomie">Anatomie</option>
+           					    <option value="classifications">Classifications</option>
+                                <option value="règles">Règles</option>
+                            </optgroup> 
+                            <optgroup label="Salons">
+           					    <option value="europe">Europe</option>
+          					 <option value="états-unis">États-Unis</option>
+              				</optgroup>
+              				<optgroup label="Métiers">
+                                <option value="typographe">Typographe</option>
+                                <option value="maquettiste">Maquettiste</option>
+                                <option value="production graphique">Production graphique</option>
+                                <option value="production imprimée">Production imprimée</option>
+                            </optgroup>
+       					</select>
+					</p>
+					<p>
+						<label for="sujet">
+						Sujet<br />
+						<input type="text" id="sujet" size="30" maxlength="50" required />
+						</label>
+					</p>
+					<p>
+						<label for="commentaires">
+						Commentaires<br />
+						<textarea id="commentaires"> </textarea>
+						</label>
+					</p>
+            </form>
+            <form class="envoi" method="post" action="#">
+					<input id="envoi" type="submit" value="Envoi" />
+            </form>
+        </article>   
+    </section>
+    <!-- footer-->
+    <footer>
+        <p>
+            Lp lycée des métiers Léonard-de-Vinci | 129 boulevard de l'Europe BP40127 | 53103 Mayenne Cedex
+        </p>
+    </footer>
+</body>
+</html>

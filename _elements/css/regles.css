@@ -1,0 +1,62 @@
+article {
+        clear: both;
+}
+/* -------- Classes règle blanc --------------- */
+.reglesblanc {
+    background-color: rgba(255,255,255,1);
+    padding: 20px 20px 20px 20px;
+    height: 240px;
+}
+.reglesblanc div {
+    float: left;
+    width: 45%;
+}
+.reglesblanc img {
+    float: right;
+    width: 50%;
+}
+/* -------- Classes règle orange --------------- */
+.reglesorange {
+    background-color: rgba(255,140,0,0.2);
+    padding: 20px 20px 20px 20px;
+    height: 240px;
+}
+.reglesorange div {
+    float: right;
+    width: 45%;
+}
+.reglesorange img {
+    float: left;
+    width: 50%;
+}
+video {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 10px 0px 15px 20px;
+}
+blockquote {
+    font-family: serif;
+    font-style: italic;
+    padding-top: 25px;
+}
+.reglesblanc a, .reglesorange a {
+    text-decoration: none;
+    color: rgba(255,140,0,1);
+}
+#section {
+    color: black;
+    font-size: 0.6em;
+    text-align: right;
+    font-style: italic;
+    padding-right: 30px;
+}
+
+/* -------- liens hover --------------- */
+.versclassifications:hover {
+    text-decoration: underline;
+}
+.citation {
+    margin-left: 250px;
+    margin-bottom: -10px;
+}
